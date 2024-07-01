@@ -8,7 +8,6 @@ class Solution:
         if not s:
             return False
         open_ = {'(', '{', '['}
-        close_ = {')', '}', ']'}
         valid_ = []
         for char in s:
             if char in open_:
